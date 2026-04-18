@@ -1,0 +1,11 @@
+#ifndef DATA_STRUCTURES_SINGLENODE_H
+#define DATA_STRUCTURES_SINGLENODE_H
+
+template<typename T>
+struct Node {
+    T data;
+    std::shared_ptr<Node<T>> next;
+    std::weak_ptr<Node<T>> prev;
+};
+
+#endif
