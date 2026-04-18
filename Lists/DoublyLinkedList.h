@@ -9,7 +9,7 @@ private:
 	std::shared_ptr<Node<T>> head = nullptr;
 	int size = 0;
 public:
-	DoublyLinkedList(T data);
+	DoublyLinkedList();
 	void push_back(T data);
 	void push_front(T data);
 	void insert(T data, int index);
@@ -18,5 +18,8 @@ public:
 	void remove(int index);
 	T& operator[](int index);
 	int getSize() const { return size; }
+	bool empty() const;
+	int find(const T& value) const;
+	friend std::ostream& operator<<(std::ostream& os, const SinglyLinkedList<T>& list);
 };
 

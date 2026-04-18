@@ -123,7 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="Lists.cpp" />
+    <ClCompile Include="SinglyLinkedList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoublyLinkedList.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="SinglyLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
