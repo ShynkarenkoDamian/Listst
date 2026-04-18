@@ -39,3 +39,40 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio folders
+.vs/
+ipch/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# IntelliSense
+*.VC.db
+*.VC.opendb
+
+# Build logs
+*.log
+
+# Test results
+TestResults/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Resharper (якщо є)
+_ReSharper*/
+*.DotSettings.user
