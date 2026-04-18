@@ -123,9 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="Lists.cpp" />
-    <ClCompile Include="SinglyLinkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoublyLinkedList.h" />
